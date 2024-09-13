@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+//app.js can be used for structing or it can be used  for code for better structuring we can gave
 import './App.css';
-
+import Navbar from './Components/navbar/navbar'
+import './Components/navbar/navbar.css'
+import Count
+ from './Components/navbar/Count';
+ import Crud from './Components/navbar/Crud_app/crud'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello world</h1>
+      {/* <Navbar/> */}
+      <Crud/>
     </div>
   );
 }
 
+// this is a  module saying i imported 
 export default App;
